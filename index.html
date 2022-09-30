@@ -36,85 +36,74 @@
             </figure>
             <div class="card-info">
                 <h1 class="info-title">FAQ</h1>
-                <div class="info-questions">
-                    <div class="questions-item disabled">
-                        <div class="questions-question">
-                            <p class="questions-p">How many team members can I invite?</p>
+                <div class="info-faqs">
+                    <div class="faqs-item">
+                        <div class="faqs-accordion" data-index="0">
+                            <p class="accordion-question">How many team members can I invite?</p>
                             <img
                                 src="./images/icon-arrow-down.svg"
                                 alt="Arrow Icon"
-                                class="questions-arrow"
+                                class="accordion-arrow"
                             />
                         </div>
-                        <p class="questions-answer">
-                            You can invite up to 2 additional users on the Free plan. There is no
-                            limit on team members for the Premium plan.
-                        </p>
-                        <div class="questions-line"></div>
+                        <div class="faqs-answerContainer"></div>
+                        <div class="faqs-line"></div>
                     </div>
-                    <div class="questions-item disabled">
-                        <div class="questions-question">
-                            <p class="questions-p">What is the maximum file upload size?</p>
+                    <div class="faqs-item">
+                        <div class="faqs-accordion" data-index="1">
+                            <p class="accordion-question">What is the maximum file upload size?</p>
                             <img
                                 src="./images/icon-arrow-down.svg"
                                 alt="Arrow Icon"
-                                class="questions-arrow"
+                                class="accordion-arrow"
                             />
                         </div>
-                        <p class="questions-answer">
-                            No more than 2GB. All files in your account must fit your allotted
-                            storage space.
-                        </p>
-                        <div class="questions-line"></div>
+                        <div class="faqs-answerContainer"></div>
+                        <div class="faqs-line"></div>
                     </div>
-                    <div class="questions-item disabled">
-                        <div class="questions-question">
-                            <p class="questions-p">How do I reset my password?</p>
+                    <div class="faqs-item">
+                        <div class="faqs-accordion" data-index="2">
+                            <p class="accordion-question">How do I reset my password?</p>
                             <img
                                 src="./images/icon-arrow-down.svg"
                                 alt="Arrow Icon"
-                                class="questions-arrow"
+                                class="accordion-arrow"
                             />
                         </div>
-                        <p class="questions-answer">
-                            Click “Forgot password” from the login page or “Change password” from
-                            your profile page. A reset link will be emailed to you.
-                        </p>
-                        <div class="questions-line"></div>
+                        <div class="faqs-answerContainer"></div>
+                        <div class="faqs-line"></div>
                     </div>
-                    <div class="questions-item disabled">
-                        <div class="questions-question">
-                            <p class="questions-p">Can I cancel my subscription?</p>
+                    <div class="faqs-item">
+                        <div class="faqs-accordion" data-index="3">
+                            <p class="accordion-question">Can I cancel my subscription?</p>
                             <img
                                 src="./images/icon-arrow-down.svg"
                                 alt="Arrow Icon"
-                                class="questions-arrow"
+                                class="accordion-arrow"
                             />
                         </div>
-                        <p class="questions-answer">
-                            Yes! Send us a message and we’ll process your request no questions
-                            asked.
-                        </p>
-                        <div class="questions-line"></div>
+                        <div class="faqs-answerContainer"></div>
+                        <div class="faqs-line"></div>
                     </div>
-                    <div class="questions-item disabled">
-                        <div class="questions-question">
-                            <p class="questions-p">Do you provide additional support?</p>
+                    <div class="faqs-item">
+                        <div class="faqs-accordion" data-index="4">
+                            <p class="accordion-question">Do you provide additional support?</p>
                             <img
                                 src="./images/icon-arrow-down.svg"
                                 alt="Arrow Icon"
-                                class="questions-arrow"
+                                class="accordion-arrow"
                             />
                         </div>
-                        <p class="questions-answer">
-                            Chat and email support is available 24/7. Phone lines are open during
-                            normal business hours.
-                        </p>
-                        <div class="questions-line"></div>
+                        <div class="faqs-answerContainer"></div>
+                        <div class="faqs-line"></div>
                     </div>
                 </div>
             </div>
         </main>
+        <img src="./images/illustration-box-desktop.svg" alt="Box Illustration" class="box" />
+        <template id="answerTemplate">
+            <p class="faqs-answer"></p>
+        </template>
         <script src="./js/script.js"></script>
     </body>
 </html>
